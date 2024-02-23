@@ -18,7 +18,7 @@ namespace ManyStrings
             string s = "Um tab\t e um copyright \u03A9";
             string s2 = "Uma "+ "string " + "concatenada";
             string s3 = "Outros tipos autom. convertidos " + x + " e " + y; // x is int , y is float
-            string s4 = $"{x} mais {y} é igual a {x + y}";
+            string s4 = $"{x} mais {y}  igual a {x + y}";
 
 
             // Write on console
