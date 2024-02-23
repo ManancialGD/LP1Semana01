@@ -4,16 +4,21 @@ namespace VariousTypes
 {
     class Program
     {
-        int a = 1;
-        int b = 0x10;
-        int c = 0x10U;
-        int d = 0b10110110;
-        int e = 0b1011_0110;
-        int f = 0xFF_2B_4A;
         
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int intA = 1;
+            int intB = 0x10;
+            uint uintC = 0x10U;
+            int intD = 0b10110110;
+            int intE = 0b1011_0110;
+            int intF = 0xFF_2B_4A;
+            Console.WriteLine(intA);
+            Console.WriteLine(intB);
+            Console.WriteLine(uintC);
+            Console.WriteLine(intD);
+            Console.WriteLine(intE);
+            Console.WriteLine(intF);
         }
     }
 }
