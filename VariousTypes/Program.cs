@@ -18,9 +18,13 @@ namespace VariousTypes
              char copyrightSymbol = '\u00A9';
              char newLine = '\u000A';
 
-            // reais
+            // Real variables
             float numeroReal1 = 3.14f;
             double numeroReal2 = 42.5678;
+
+            // Boolean variables
+            bool Verdade = true;
+            bool Falso = false;
 
             // Write int variables on console
             Console.WriteLine("These are int types:");
@@ -31,7 +35,7 @@ namespace VariousTypes
             Console.WriteLine(intE);
 
             // Write char variables on console
-            Console.WriteLine("These are chat Types");
+            Console.WriteLine("These are chat types");
             Console.WriteLine(copyrightSymbol);
             Console.WriteLine(newLine);
 
@@ -39,6 +43,11 @@ namespace VariousTypes
             Console.WriteLine("These are real types");
             Console.WriteLine(numeroReal1);
             Console.WriteLine(numeroReal2);
+
+            // Write boolean variables on console
+            Console.WriteLine("These are boolean types:");
+            Console.WriteLine(Verdade);
+            Console.WriteLine(Falso);
         }
     }
 }
